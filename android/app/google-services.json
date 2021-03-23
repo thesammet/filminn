@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834169830404",
+    "firebase_url": "https://film-inn-4a580-default-rtdb.firebaseio.com",
+    "project_id": "film-inn-4a580",
+    "storage_bucket": "film-inn-4a580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834169830404:android:74365c9fefec018fae0951",
+        "android_client_info": {
+          "package_name": "com.zaft.filminn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834169830404-lmr27bo9v1e9spa3cav2fdv7003pitgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zaft.filminn",
+            "certificate_hash": "994566a06336bb7d758921815a8135d0ea6a0fa3"
+          }
+        },
+        {
+          "client_id": "834169830404-joddnb195crdqkcd8fn5t5s8tvttfr54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvKpSM_Sw0IbDSctkOkJkWCB_hTHmjyHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834169830404-joddnb195crdqkcd8fn5t5s8tvttfr54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+import 'package:adobe_xd/pinned.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class Logo extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+      SvgPicture.string(
+        _svg_rrjtxt,
+        allowDrawingOutsideViewBox: true,
+        fit: BoxFit.fill,
+      ),
+      Text(
+        'Film Inn',
+        style: TextStyle(
+          fontFamily: 'Metropolis',
+          fontSize: 27,
+          color: const Color(0xffffffff),
+          fontWeight: FontWeight.w900,
+        ),
+        textAlign: TextAlign.center,
+      ),
+      SvgPicture.string(
+        _svg_zdpvxp,
+        allowDrawingOutsideViewBox: true,
+        fit: BoxFit.fill,
+      ),
+    ]);
+    /*Transform.translate(
+      offset: Offset(125.5, 179.5),
+      child: SizedBox(
+        width: 124.0,
+        height: 37.0,
+        child: Stack(
+          children: <Widget>[
+            Pinned.fromSize(
+              bounds: Rect.fromLTWH(0.0, 0.0, 108.0, 36.0),
+              size: Size(124.0, 36.5),
+              pinLeft: true,
+              pinRight: true,
+              pinTop: true,
+              pinBottom: true,
+              child: Text(
+                'Film Inn',
+                style: TextStyle(
+                  fontFamily: 'Metropolis',
+                  fontSize: 27,
+                  color: const Color(0xffffffff),
+                  fontWeight: FontWeight.w900,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            Pinned.fromSize(
+              bounds: Rect.fromLTWH(5, 0, 53.1, 1.0),
+              size: Size(124.0, 36.5),
+              pinLeft: true,
+              pinTop: true,
+              fixedWidth: true,
+              fixedHeight: true,
+              child: SvgPicture.string(
+                _svg_rrjtxt,
+                allowDrawingOutsideViewBox: true,
+                fit: BoxFit.fill,
+              ),
+            ),
+            Pinned.fromSize(
+              bounds: Rect.fromLTWH(5, 30, 100.6, 1.0),
+              size: Size(124.0, 36.5),
+              pinLeft: true,
+              pinRight: true,
+              pinBottom: true,
+              fixedHeight: true,
+              child: SvgPicture.string(
+                _svg_zdpvxp,
+                allowDrawingOutsideViewBox: true,
+                fit: BoxFit.fill,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }*/
+  }
+
+  String _svg_5dtx82 =
+      '<svg viewBox="-223.5 -145.5 870.0 580.0" ><defs><pattern id="image" patternUnits="userSpaceOnUse" width="2592.0" height="1728.0"><image xlink:href="null" x="0" y="0" width="2592.0" height="1728.0" /></pattern></defs><path transform="translate(-223.5, -145.5)" d="M 0 0 L 870 0 L 870 580 L 0 580 L 0 0 Z" fill="url(#image)" fill-opacity="0.23" stroke="none" stroke-width="1" stroke-opacity="0.23" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_mlizdn =
+      '<svg viewBox="44.6 589.0 80.4 1.0" ><path transform="translate(5061.0, 163.0)" d="M -4936 426 L -5016.4072265625 426" fill="none" fill-opacity="0.36" stroke="#ffffff" stroke-width="1" stroke-opacity="0.36" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_hytba7 =
+      '<svg viewBox="0.0 0.0 43.8 43.8" ><defs><linearGradient id="gradient" x1="0.5" y1="0.0" x2="0.5" y2="1.0"><stop offset="0.0" stop-color="#FF252883"  /><stop offset="1.0" stop-color="#ff464bf9"  /></linearGradient></defs><path  d="M 21.90582084655762 0 C 9.827001571655273 0 0 9.826984405517578 0 21.90578269958496 C 0 33.98369979858398 9.827001571655273 43.81156539916992 21.90582084655762 43.81156539916992 C 33.98375701904297 43.81156539916992 43.81164169311523 33.98369979858398 43.81164169311523 21.90578269958496 C 43.81164169311523 9.826984405517578 33.98552322387695 0 21.90582084655762 0 Z M 27.35359764099121 22.67697715759277 L 23.7896900177002 22.67697715759277 C 23.7896900177002 28.37092781066895 23.7896900177002 35.37961578369141 23.7896900177002 35.37961578369141 L 18.50868034362793 35.37961578369141 C 18.50868034362793 35.37961578369141 18.50868034362793 28.43886947631836 18.50868034362793 22.67697715759277 L 15.99832725524902 22.67697715759277 L 15.99832725524902 18.18746566772461 L 18.50868034362793 18.18746566772461 L 18.50868034362793 15.28357791900635 C 18.50868034362793 13.20382499694824 19.49693870544434 9.954047203063965 23.83821868896484 9.954047203063965 L 27.75154876708984 9.969047546386719 L 27.75154876708984 14.32708644866943 C 27.75154876708984 14.32708644866943 25.37355041503906 14.32708644866943 24.91118621826172 14.32708644866943 C 24.44882202148438 14.32708644866943 23.79145240783691 14.55826663970947 23.79145240783691 15.55005359649658 L 23.79145240783691 18.1883487701416 L 27.81507682800293 18.1883487701416 L 27.35359764099121 22.67697715759277 Z" fill="url(#gradient)" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_tvx9uj =
+      '<svg viewBox="249.6 589.0 80.4 1.0" ><path transform="translate(5266.0, 163.0)" d="M -4936 426 L -5016.4072265625 426" fill="none" fill-opacity="0.36" stroke="#ffffff" stroke-width="1" stroke-opacity="0.36" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_aabzhs =
+      '<svg viewBox="200.2 613.0 43.8 43.8" ><defs><linearGradient id="gradient" x1="0.5" y1="0.0" x2="0.5" y2="1.0"><stop offset="0.0" stop-color="#ff252883"  /><stop offset="1.0" stop-color="#ff464bf9"  /></linearGradient></defs><path transform="translate(200.19, 613.0)" d="M 21.90419960021973 43.80839920043945 C 18.9470386505127 43.80839920043945 16.07839012145996 43.22927856445313 13.37790966033936 42.08712005615234 C 10.76953983306885 40.98392105102539 8.427029609680176 39.40457916259766 6.415419578552246 37.39297866821289 C 4.403819561004639 35.38137054443359 2.824479579925537 33.03886032104492 1.721279621124268 30.43049049377441 C 0.5791196227073669 27.73000907897949 -3.997802764388325e-07 24.86136054992676 -3.997802764388325e-07 21.90419960021973 C -3.997802764388325e-07 18.9472599029541 0.5791196227073669 16.0787296295166 1.721279621124268 13.37828922271729 C 2.824499607086182 10.76992988586426 4.403839588165283 8.427399635314941 6.415419578552246 6.415759563446045 C 8.427059173583984 4.404059410095215 10.76957988739014 2.824659585952759 13.37790966033936 1.721409559249878 C 16.07840919494629 0.5791695713996887 18.94705963134766 -3.997802764388325e-07 21.90419960021973 -3.997802764388325e-07 C 24.8613395690918 -3.997802764388325e-07 27.72999000549316 0.5791695713996887 30.43049049377441 1.721409559249878 C 33.038818359375 2.824659585952759 35.38134002685547 4.404059410095215 37.39297866821289 6.415759563446045 C 39.40456008911133 8.427399635314941 40.9838981628418 10.76992988586426 42.08712005615234 13.37828922271729 C 43.22927856445313 16.0787296295166 43.80839920043945 18.9472599029541 43.80839920043945 21.90419960021973 C 43.80839920043945 24.86136054992676 43.22927856445313 27.73000907897949 42.08712005615234 30.43049049377441 C 40.98392105102539 33.03886032104492 39.40457916259766 35.38137054443359 37.39297866821289 37.39297866821289 C 35.38137054443359 39.40457916259766 33.03886032104492 40.98392105102539 30.43049049377441 42.08712005615234 C 27.73000907897949 43.22927856445313 24.86136054992676 43.80839920043945 21.90419960021973 43.80839920043945 Z M 21.84930038452148 9.311399459838867 C 14.93587970733643 9.311399459838867 9.311399459838867 14.93587970733643 9.311399459838867 21.84930038452148 C 9.311399459838867 28.76272010803223 14.93587970733643 34.38719940185547 21.84930038452148 34.38719940185547 C 28.76272010803223 34.38719940185547 34.38719940185547 28.76272010803223 34.38719940185547 21.84930038452148 L 34.38719940185547 19.34189987182617 L 21.84930038452148 19.34189987182617 L 21.84930038452148 24.35669898986816 L 28.94309997558594 24.35669898986816 C 27.87813949584961 27.35727882385254 25.02697944641113 29.37240028381348 21.84930038452148 29.37240028381348 C 17.7010498046875 29.37240028381348 14.32619953155518 25.99754905700684 14.32619953155518 21.84930038452148 C 14.32619953155518 17.7010498046875 17.7010498046875 14.32619953155518 21.84930038452148 14.32619953155518 C 23.64753913879395 14.32619953155518 25.37798881530762 14.97119998931885 26.72189903259277 16.14239883422852 L 30.01679992675781 12.36059951782227 C 27.75935935974121 10.39479923248291 24.85871887207031 9.311399459838867 21.84930038452148 9.311399459838867 Z" fill="url(#gradient)" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_rrjtxt =
+      '<svg viewBox="105.0 203.6 53.1 1.0" ><path transform="translate(105.0, 203.63)" d="M 0 0.372039794921875 L 53.1092529296875 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+  String _svg_zdpvxp =
+      '<svg viewBox="105.0 235.6 122.6 1.0" ><path transform="translate(105.0, 235.63)" d="M 0 0 L 105 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
+}
